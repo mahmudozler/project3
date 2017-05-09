@@ -1,0 +1,108 @@
+
+#map {
+    height: 100%;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mappanel{
+    width: 290px;
+    height: 100%;
+    overflow: auto;
+}
+
+#over_map {
+    height: 95%;
+    max-width: 300px;
+    padding: 5px;
+    position: absolute;
+    left: 10px;
+    top: 2.5%;
+    bottom: 2.5%;
+}
+
+#description {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*PROGRESS BAR*/
+.progress{
+    margin-bottom: 10px !important;
+}
+
+.progress-bar-2006 {
+    background-color: #5cb85c;
+}
+
+.progress-bar-2007 {
+    background-color: #5bc0de;
+}
+
+.progress-bar-2008 {
+    background-color: #f0ad4e;
+}
+
+.progress-bar-2009 {
+    background-color: #d9534f;
+}
+
+.progress-bar-2011 {
+    background-color: #b846b8;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+#pac-input {
+    background-color: #fff;
+    padding: 0 11px 0 13px;
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    left: 35% !important;
+    right: 35% !important;
+    top: 2.5% !important;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+    margin-left: -1px;
+    padding-left: 14px; /* Regular padding-left + 1. */
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+#target {
+    width: 345px;
+}
